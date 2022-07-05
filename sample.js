@@ -1,3 +1,3 @@
-const yargs = require('path');
-console.log('Path:', yargs.dirname('./sample.js'));
+const yargs = require('yargs');
+console.log('Path:', yargs);
 console.log('Hey there, im in github actions');
